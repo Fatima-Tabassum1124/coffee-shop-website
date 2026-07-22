@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About &amp; Contact — The Copper Kettle</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="brand">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8z" stroke="#F5EBDD" stroke-width="1.6"/>
+      <path d="M17 9h1.5a2.5 2.5 0 0 1 0 5H17" stroke="#F5EBDD" stroke-width="1.6"/>
+    </svg>
+    <span class="name">The Copper Kettle</span>
+  </a>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="about.html" class="active">About &amp; Contact</a>
+  </nav>
+</header>
+
+<div class="grain-divider"></div>
+
+<section>
+  <div class="about-grid">
+    <div class="about-text">
+      <span class="eyebrow">Our story</span>
+      <h2>Started in a garage. Still runs like one.</h2>
+      <p>The Copper Kettle opened in 2019 with one roaster, two tables, and a promise: every cup gets full attention, whether it's your first visit or your five-hundredth.</p>
+      <p>We're a small team — three baristas, one roaster, and a baker who shows up at 5am so the croissants are ready before you are. We keep the menu short so we can keep it right.</p>
+      <p>Come sit for ten minutes or three hours. The wifi password is on the chalkboard, and so is a lot of other stuff you might need to know.</p>
+    </div>
+
+    <div class="chalkboard">
+      <h3>Hours</h3>
+      <div class="hours-row"><span>Tuesday – Friday</span><span>8:00 AM – 9:00 PM</span></div>
+      <div class="hours-row"><span>Saturday – Sunday</span><span>9:00 AM – 10:00 PM</span></div>
+      <div class="hours-row"><span>Monday</span><span>Closed</span></div>
+      <h3 style="margin-top:1.6rem;">Find Us</h3>
+      <div class="hours-row"><span>Mall Road</span><span>Rahim Yar Khan</span></div>
+      <div class="hours-row"><span>Phone</span><span>0300-0000000</span></div>
+      <p class="map-note" style="color:var(--cream-dim);">Two minutes' walk from the clock tower, next to the bookshop.</p>
+    </div>
+  </div>
+
+  <form class="contact-form">
+    <div class="section-head" style="margin-bottom:1.5rem;">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Send us a message</h2>
+    </div>
+    <div>
+      <label for="name">Your name</label>
+      <input type="text" id="name" name="name" placeholder="Areeba Sarwar" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Ask about catering, private tables, or anything else." required></textarea>
+    </div>
+    <button type="submit" class="btn" style="justify-self:start;">Send Message</button>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="brand">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 8h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V8z" stroke="#F5EBDD" stroke-width="1.6"/>
+      <path d="M17 9h1.5a2.5 2.5 0 0 1 0 5H17" stroke="#F5EBDD" stroke-width="1.6"/>
+    </svg>
+    The Copper Kettle
+  </div>
+  <p>Mall Road, Rahim Yar Khan &nbsp;•&nbsp; Open Tue–Sun, 8am–9pm</p>
+</footer>
+
+</body>
+</html>
